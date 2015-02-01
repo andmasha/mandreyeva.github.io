@@ -26,6 +26,16 @@ $(document).ready(function(){
 		$('.view').hide();
 	});
 
+	// $('.designimage').hover(function(){
+	// 	$(this).find('.overlay').stop().fadeIn(100);
+	// 	$('.view').show();
+
+
+	// 	}, function(){
+	// 	$(this).find('.overlay').stop().fadeOut(400);
+	// 	$('.view').hide();
+	// });
+
 	$('.galleryimage').click(function(){
 		var src = $(this).find('.galleryimg').attr('src');
 		$('#white').find('img').attr('src', src);
