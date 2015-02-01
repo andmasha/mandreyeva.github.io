@@ -15,6 +15,10 @@ $(document).ready(function(){
 		$(this).fadeIn(4000);
 	});
 
+	$('#logo').hide().load(function () {
+		$(this).fadeIn(2000);
+	});
+
 
 	$('.galleryimage').hover(function(){
 		$(this).find('.overlay').stop().fadeIn(100);
